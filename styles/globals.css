@@ -1,7 +1,9 @@
-html,
+html{
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
 body {
   height: 100%;
-  overflow-x: hidden;
   padding: 10px;
   margin: 10px;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
