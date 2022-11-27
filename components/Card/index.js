@@ -26,7 +26,7 @@ const Card = (props) => {
         </div>
         <br />
       </Modal>
-      <Row>
+      <Row gutter={[16, 16]}>
         {data?.map((dt, idx) => {
           return (
             <Col className="shadow" md={{ span: 6 }} key={idx}>

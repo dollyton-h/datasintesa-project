@@ -49,7 +49,7 @@ export default function Home() {
     <>
       <br />
       <Row>
-        <Col span={20}>
+        <Col span={18}>
           <div className="font-big font-bold">List User</div>
         </Col>
         <Col>
