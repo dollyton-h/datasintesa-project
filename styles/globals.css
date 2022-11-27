@@ -1,7 +1,9 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
+  height: 100%;
+  overflow-x: hidden;
+  padding: 10px;
+  margin: 10px;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -15,12 +17,73 @@ a {
   box-sizing: border-box;
 }
 
+.font-bold{
+  font-weight: bold;
+}
+
+.font-big{
+  font-size: 20px;
+}
+
+.shadow{
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.content{
+  text-align: right;
+  width: 250px;
+}
+
+.content-modal{
+  text-align: right;
+  width: 350px;
+}
+
+.display-flex{
+  display: flex;
+}
+
+.width-medium{
+  width: 100px;
+}
+
+.width-large{
+  width: 150px;
+}
+
+.m-top-3{
+  margin-top: 6px;
+}
+
+.align-right{
+  width: 100%;
+  text-align: right;
+}
+
+.loadingSpinner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  width: 100px;
+  height: 100px;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.link-text{
+  color: #60a2ff
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: black;
+    color: black;
+    background: white;
   }
 }
