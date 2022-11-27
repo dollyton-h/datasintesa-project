@@ -29,7 +29,7 @@ const Card = (props) => {
       <Row gutter={[16, 16]}>
         {data?.map((dt, idx) => {
           return (
-            <Col className="shadow" span={6} key={idx}>
+            <Col className="shadow" md={{ span: 6 }} key={idx}>
               <UserCard bordered>
                 <p>
                   <Avatar src={dt.picture.medium} />
