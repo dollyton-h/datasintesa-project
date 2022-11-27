@@ -1,4 +1,7 @@
+//CORE
 import React, { useState } from "react";
+
+//COMPONENT UI
 import { Card as UserCard, Row, Col, Avatar, Modal } from "antd";
 import moment from "moment/moment";
 
