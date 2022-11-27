@@ -59,7 +59,9 @@ export default function Home() {
       </Row>
       <br />
       <Row>
-        <Card data={data} />
+        <Col md={24}>
+          <Card data={data} />
+        </Col>
       </Row>
       <br />
       <br />
