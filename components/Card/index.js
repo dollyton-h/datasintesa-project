@@ -26,10 +26,10 @@ const Card = (props) => {
         </div>
         <br />
       </Modal>
-      <div className="card-list">
+      <Row>
         {data?.map((dt, idx) => {
           return (
-            <div className="card" key={idx}>
+            <Col className="shadow" md={{ span: 6 }} key={idx}>
               <UserCard bordered>
                 <p>
                   <Avatar src={dt.picture.medium} />
@@ -70,10 +70,10 @@ const Card = (props) => {
                   >{`More details >>`}</span>
                 </div>
               </UserCard>
-            </div>
+            </Col>
           );
         })}
-      </div>
+      </Row>
     </>
   );
 };

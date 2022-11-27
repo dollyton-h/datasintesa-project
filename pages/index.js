@@ -57,6 +57,7 @@ export default function Home() {
           <Filter onChange={filterNationality} current={nat} />
         </Col>
       </Row>
+      <br />
       <Row>
         <Col md={24}>
           <Card data={data} />
