@@ -80,6 +80,25 @@ a {
   color: #60a2ff
 }
 
+.card-list{
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card{
+  margin-top: 2em;
+  padding: 0.5rem;
+  height: 18rem;
+}
+
+@media (min-width: 600px) {
+  .card-list { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 900px) {
+  .card-list { grid-template-columns: repeat(4, 1fr); }
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

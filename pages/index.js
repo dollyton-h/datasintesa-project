@@ -49,7 +49,7 @@ export default function Home() {
     <>
       <br />
       <Row>
-        <Col span={18}>
+        <Col span={20}>
           <div className="font-big font-bold">List User</div>
         </Col>
         <Col>
@@ -57,7 +57,6 @@ export default function Home() {
           <Filter onChange={filterNationality} current={nat} />
         </Col>
       </Row>
-      <br />
       <Row>
         <Col md={24}>
           <Card data={data} />
